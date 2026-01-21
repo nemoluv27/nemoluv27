@@ -151,9 +151,9 @@ ___
 ___
 
 ## 📜 Certifications
-- AWS Certified DevOps Engineer – Professional (2026)
-- AWS Certified Solutions Architect – Associate
-- AWS Certified Cloud Practitioner
+- AWS Certified DevOps Engineer – Professional (Jan, 2026)
+- AWS Certified Solutions Architect – Associate (Sep, 2025)
+- AWS Certified Cloud Practitioner (Mar, 2025)
 
 ___
 ___
