@@ -52,8 +52,8 @@ Build a production-like Kubernetes platform starting from local development and 
 |------|------|------|------|
 | Phase 1 | Initial Service Setup & Operational Baseline | ✅ Completed | [Link](docs/phase-01-initial-service.md) |
 | Phase 2 | CI with GitHub Actions | ✅ Completed | [Link](docs/phase-02-github-actions.md) |
-| Phase 3 | GitOps deployment with ArgoCD | 🔄 In Progress | [Link](docs/phase-03-argocd.md) |
-| Phase 4 | Kubernetes platform expansion (Local → EKS) | ⏳ Planned | [Link](docs/phase-04-eks.md) |
+| Phase 3 | GitOps deployment with ArgoCD | ✅ Completed | [Link](docs/phase-03-argocd.md) |
+| Phase 4 | Kubernetes platform expansion (Local → EKS) | 🔄 In Progress | [Link](docs/phase-04-eks.md) |
 | Phase 5 | Infrastructure as Code with Terraform (AWS) | ⏳ Planned | [Link](docs/phase-05-terraform.md) |
 | Phase 6 | Helm-based Application & Platform Packaging | ⏳ Planned | [Link](docs/phase-06-helm.md) |
 | Phase 7 | Monitoring (Prometheus + Grafana) | ⏳ Planned | [Link](docs/phase-07-monitoring.md) |
