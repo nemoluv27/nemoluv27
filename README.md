@@ -31,12 +31,18 @@ ___
 > DevOps and Platform Engineering practices through incremental changes and tooling migrations.
 
 ### 🎯 Project Goal
-Build a production-like Kubernetes platform starting from local development and gradually introducing:
-- GitOps-based delivery
-- Observability stack
-- CI system migration
-- Database migration
-- Scaling & performance experiments
+Build a production-like Kubernetes platform starting from local development and gradually evolving into a cloud-based, operationally controlled system by introducing:
+
+- GitOps-based continuous delivery
+- Kubernetes platform expansion (Local → AWS EKS)
+- Infrastructure as Code with Terraform
+- Helm-based application and platform packaging
+- Environment lifecycle automation (start/stop, cost control)
+- Observability stack (metrics and logs)
+- CI system evolution and build workflow automation
+- Database migration and data layer evolution
+- Scaling and performance experiments beyond CPU-based autoscaling
+
 
 ---
 
@@ -47,19 +53,26 @@ Build a production-like Kubernetes platform starting from local development and 
 | Phase 1 | Initial Service Setup & Operational Baseline | ✅ Completed | [Link](docs/phase-01-initial-service.md) |
 | Phase 2 | CI with GitHub Actions | ✅ Completed | [Link](docs/phase-02-github-actions.md) |
 | Phase 3 | GitOps deployment with ArgoCD | 🔄 In Progress | [Link](docs/phase-03-argocd.md) |
-| Phase 4 | Monitoring (Prometheus + Grafana) | ⏳ Planned | [Link](docs/phase-04-monitoring.md) |
-| Phase 5 | Logging (Loki) | ⏳ Planned | [Link](docs/phase-05-logging.md) |
-| Phase 6 | CI migration (GitHub Actions → Jenkins) | ⏳ Planned | [Link](docs/phase-06-jenkins.md) |
-| Phase 7 | Kubernetes platform expansion (Local → EKS) | ⏳ Planned | [Link](docs/phase-07-eks.md) |
-| Phase 8 | Service Mesh & Tracing (Istio, Kiali, Jaeger) | ⏳ Planned | [Link](docs/phase-08-service-mesh.md) |
-| Phase 9 | Database migration (Neon → MySQL / PostgreSQL) | ⏳ Planned | [Link](docs/phase-09-database.md) |
+| Phase 4 | Kubernetes platform expansion (Local → EKS) | ⏳ Planned | [Link](docs/phase-04-eks.md) |
+| Phase 5 | Infrastructure as Code with Terraform (AWS) | ⏳ Planned | [Link](docs/phase-05-terraform.md) |
+| Phase 6 | Helm-based Application & Platform Packaging | ⏳ Planned | [Link](docs/phase-06-helm.md) |
+| Phase 7 | Monitoring (Prometheus + Grafana) | ⏳ Planned | [Link](docs/phase-07-monitoring.md) |
+| Phase 8 | Logging (Loki) | ⏳ Planned | [Link](docs/phase-08-logging.md) |
+| Phase 9 | Infrastructure Control & Automation (Scripting) | ⏳ Planned | [Link](docs/phase-09-automation.md) |
+| Phase 10 | CI migration (GitHub Actions → Jenkins) | ⏳ Planned | [Link](docs/phase-10-jenkins.md) |
+| Phase 11 | Service Mesh & Tracing (Istio, Kiali, Jaeger) | ⏳ Planned | [Link](docs/phase-11-service-mesh.md) |
+| Phase 12 | Database migration (Neon → MySQL / PostgreSQL) | ⏳ Planned | [Link](docs/phase-12-database.md) |
 
 ---
 
 ### 🧠 Key Learning Focus
-- CI/CD trade-offs (GitHub Actions vs Jenkins)
-- GitOps operational patterns and failure modes
-- Observability-driven debugging
+- CI/CD trade-offs and evolution (GitHub Actions → Jenkins)
+- GitOps operational patterns, reconciliation behavior, and failure modes
+- Helm vs raw Kubernetes manifests trade-offs
+- Infrastructure lifecycle management using Terraform
+- Environment cost control through automated start/stop workflows
+- Unified build workflows across local and cloud environments
+- Observability-driven debugging using metrics and logs
 - Database migration considerations in containerized systems
 - Scaling limits beyond CPU-based autoscaling
 
