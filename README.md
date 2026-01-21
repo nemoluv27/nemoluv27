@@ -44,14 +44,15 @@ Build a production-like Kubernetes platform starting from local development and 
 
 | Phase | Topic | Status | Docs |
 |------|------|------|------|
-| Phase 1 | Local Kubernetes setup (kind / Docker Desktop) | ✅ Completed | [Link](docs/phase-01-local-k8s.md) |
+| Phase 1 | Initial Service Setup & Operational Baseline | ✅ Completed | [Link](docs/phase-01-initial-service.md) |
 | Phase 2 | CI with GitHub Actions | ✅ Completed | [Link](docs/phase-02-github-actions.md) |
 | Phase 3 | GitOps deployment with ArgoCD | 🔄 In Progress | [Link](docs/phase-03-argocd.md) |
 | Phase 4 | Monitoring (Prometheus + Grafana) | ⏳ Planned | [Link](docs/phase-04-monitoring.md) |
 | Phase 5 | Logging (Loki) | ⏳ Planned | [Link](docs/phase-05-logging.md) |
 | Phase 6 | CI migration (GitHub Actions → Jenkins) | ⏳ Planned | [Link](docs/phase-06-jenkins.md) |
-| Phase 7 | Database migration (Neon → MySQL) | ⏳ Planned | [Link](docs/phase-07-database.md) |
-| Phase 8 | Performance & scaling experiments | ⏳ Planned | [Link](docs/phase-08-scaling.md) |
+| Phase 7 | Kubernetes platform expansion (Local → EKS) | ⏳ Planned | [Link](docs/phase-07-eks.md) |
+| Phase 8 | Service Mesh & Tracing (Istio, Kiali, Jaeger) | ⏳ Planned | [Link](docs/phase-08-service-mesh.md) |
+| Phase 9 | Database migration (Neon → MySQL / PostgreSQL) | ⏳ Planned | [Link](docs/phase-09-database.md) |
 
 ---
 
