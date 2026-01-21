@@ -5,21 +5,106 @@ Cloud & DevOps Engineer
 📍 Toronto, Canada  
 AWS · Kubernetes · Terraform · CI/CD · Observability
 
----
+___
+___
 
 ## 🧭 About Me
-Cloud & DevOps Engineer with hands-on experience designing and operating production-like infrastructure across AWS and GCP.  
-I focus on **reliability, scalability, automation, and observability**, and I enjoy iteratively improving systems through real-world experiments.
+Cloud & DevOps Engineer with hands-on experience operating production-like infrastructure across AWS and GCP.  
+I focus on **reliability, scalability, automation, and observability**, and I enjoy evolving systems incrementally to understand real-world trade-offs.
 
-- Multi-cloud infrastructure (AWS, GCP)
 - Kubernetes-based platforms
 - Infrastructure as Code (Terraform)
 - CI/CD & GitOps workflows
 - Monitoring, logging, and incident readiness
+- Cost-aware and failure-oriented system design
+
+___
+___
+
+## 🟢 Ongoing Project (2026 – Present)
+# Evolving Kubernetes Platform
+
+📅 **Jan 2026 – Present**  
+🔁 **Status: Actively evolving**
+
+> A continuously evolving Kubernetes-based platform project designed to explore real-world  
+> DevOps and Platform Engineering practices through incremental changes and tooling migrations.
+
+### 🎯 Project Goal
+Build a production-like Kubernetes platform starting from local development and gradually introducing:
+- GitOps-based delivery
+- Observability stack
+- CI system migration
+- Database migration
+- Scaling & performance experiments
 
 ---
 
+### 🗺️ Project Roadmap & Progress
+
+| Phase | Topic | Status | Docs |
+|------|------|------|------|
+| Phase 1 | Local Kubernetes setup (kind / Docker Desktop) | ✅ Completed | [Link](docs/phase-01-local-k8s.md) |
+| Phase 2 | CI with GitHub Actions | ✅ Completed | [Link](docs/phase-02-github-actions.md) |
+| Phase 3 | GitOps deployment with ArgoCD | 🔄 In Progress | [Link](docs/phase-03-argocd.md) |
+| Phase 4 | Monitoring (Prometheus + Grafana) | ⏳ Planned | [Link](docs/phase-04-monitoring.md) |
+| Phase 5 | Logging (Loki) | ⏳ Planned | [Link](docs/phase-05-logging.md) |
+| Phase 6 | CI migration (GitHub Actions → Jenkins) | ⏳ Planned | [Link](docs/phase-06-jenkins.md) |
+| Phase 7 | Database migration (Neon → MySQL) | ⏳ Planned | [Link](docs/phase-07-database.md) |
+| Phase 8 | Performance & scaling experiments | ⏳ Planned | [Link](docs/phase-08-scaling.md) |
+
+---
+
+### 🧠 Key Learning Focus
+- CI/CD trade-offs (GitHub Actions vs Jenkins)
+- GitOps operational patterns and failure modes
+- Observability-driven debugging
+- Database migration considerations in containerized systems
+- Scaling limits beyond CPU-based autoscaling
+
+---
+
+### 📂 Related Repositories
+- `finance-app-k8s` – Kubernetes manifests & Helm charts  
+- `finance-app-terraform` – Infrastructure as Code (Terraform)  
+- `course-antonio-build-finance-platform` – Application source code  
+
+___
+___
+
+## 🔵 Previous Projects (Latest First)
+
+## Multi-Cloud Disaster Recovery Architecture
+📅 **Jun 2025**
+
+AWS · GCP · Terraform · Monitoring · Security
+
+- Designed a multi-cloud disaster recovery architecture across AWS and GCP
+- Implemented automated failover workflows using Infrastructure as Code
+- Configured cross-cloud monitoring and alerting for failure detection
+- Applied AWS WAF to secure services during failover scenarios
+
+📄 [View Project Details](docs/project-multicloud-dr.md)
+
+___
+
+## Cloud-based Scalable MSA with Zero Downtime
+📅 **Jul 2025 – Oct 2025**
+
+AWS · Kubernetes · Terraform · GitHub Actions · ArgoCD · Observability
+
+- Built CI/CD pipelines using GitHub Actions and ArgoCD
+- Deployed and operated a Kubernetes-based microservices environment
+- Implemented monitoring and centralized logging with Prometheus, Grafana, and Loki
+- Troubleshot production-like incidents using metrics and logs
+
+📄 [View Project Details](docs/project-msa-zero-downtime.md)
+
+___
+___
+
 ## 🛠 Tech Stack
+
 **Cloud**
 - AWS (EC2, VPC, IAM, S3, RDS, Lambda, WAF)
 - Google Cloud Platform (Compute Engine, VPC)
@@ -31,7 +116,7 @@ I focus on **reliability, scalability, automation, and observability**, and I en
 - Terraform
 - GitHub Actions
 - ArgoCD
-- Jenkins (learning & migration experiments)
+- Jenkins (migration experiments)
 
 **Observability**
 - Prometheus
@@ -48,60 +133,16 @@ I focus on **reliability, scalability, automation, and observability**, and I en
 - MySQL
 - PostgreSQL (RDS, Neon)
 
----
-
-## 🚀 Core Project: Evolving Kubernetes Platform
-> A continuously evolving platform project to explore real-world DevOps and Platform Engineering practices.
-
-### 🎯 Project Goal
-Build and iteratively improve a **production-like Kubernetes platform** starting from local development and gradually introducing enterprise-grade tooling and architecture.
-
----
-
-### 🧩 Architecture (Current Focus)
-- Local Kubernetes (Docker Desktop / kind)
-- GitHub Actions → ArgoCD (GitOps)
-- Prometheus, Loki, Grafana for observability
-- External managed DB (Neon → MySQL migration planned)
-
----
-
-### 🗺️ Project Roadmap & Progress
-| Phase | Topic | Status |
-|------|------|------|
-| Phase 1 | Local Kubernetes setup (kind / Docker Desktop) | ✅ Completed |
-| Phase 2 | CI with GitHub Actions | ✅ Completed |
-| Phase 3 | GitOps deployment with ArgoCD | 🔄 In Progress |
-| Phase 4 | Monitoring (Prometheus + Grafana) | ⏳ Planned |
-| Phase 5 | Logging (Loki) | ⏳ Planned |
-| Phase 6 | CI migration (GitHub Actions → Jenkins) | ⏳ Planned |
-| Phase 7 | Database migration (Neon → MySQL) | ⏳ Planned |
-| Phase 8 | Performance testing & scaling experiments | ⏳ Planned |
-
----
-
-### 🧠 What I’m Learning From This Project
-- Trade-offs between CI/CD tools (GitHub Actions vs Jenkins)
-- GitOps operational patterns and failure modes
-- Observability-driven debugging
-- Database migration considerations in containerized environments
-- Scaling limits and bottlenecks in Kubernetes-based systems
-
----
-
-## 📂 Related Repositories
-- `finance-app-k8s` – Kubernetes manifests & Helm charts
-- `finance-app-terraform` – Infrastructure as Code
-- `course-antonio-build-finance-platform` – Application source
-
----
+___
+___
 
 ## 📜 Certifications
-- AWS Certified DevOps Engineer – Professional (Jan, 2026)
-- AWS Certified Solutions Architect – Associate (Sep, 2025)
-- AWS Certified Cloud Practitioner (Mar, 2025)
+- AWS Certified DevOps Engineer – Professional (2026)
+- AWS Certified Solutions Architect – Associate
+- AWS Certified Cloud Practitioner
 
----
+___
+___
 
 ## 🌍 Work Authorization
 Authorized to work in Canada under a **Working Holiday Visa**  
@@ -109,7 +150,8 @@ Authorized to work in Canada under a **Working Holiday Visa**
 ✔ Eligible for extension  
 ✔ No employer sponsorship required
 
----
+___
+___
 
 ## 🔗 Links
 - LinkedIn: https://www.linkedin.com/in/jiyongbaek0627
