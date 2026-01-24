@@ -36,7 +36,7 @@ production-like network isolation and security boundaries.
 
 **Pipeline summary:**
 - GitHub Actions builds and pushes container images to Amazon ECR
-- Kubernetes manifests are managed in `finance-app-k8s`
+- Kubernetes manifests are managed in `finance-app-k8s` (private repository)
 - Argo CD continuously watches the `env/eks` branch
 - Desired state is reconciled into the EKS cluster
 
