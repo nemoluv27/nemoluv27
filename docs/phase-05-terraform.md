@@ -21,7 +21,7 @@ This phase addresses that gap by introducing Terraform as the authoritative infr
 
 ## Architecture Overview
 
-![Terraform-managed EKS architecture](../images/phase-05/phase-05-terraform-eks-architecture.png)
+![Terraform-managed EKS architecture](../images/phase-05-terraform-eks-architecture.png)
 
 The diagram above represents the AWS infrastructure after migrating from manual console-based provisioning to a Terraform-managed model.
 
