@@ -34,7 +34,7 @@ Terraform acts as the single deployment interface, defining and maintaining the 
 
 The Terraform repository is structured to reflect deployment order, change frequency, and resource lifecycle boundaries.
 
-
+'''
 finance-app-terraform/
 └── envs/
     └── prod/
@@ -44,7 +44,7 @@ finance-app-terraform/
         ├── addons/
         │   └── alb-controller/
         └── istio/
-
+'''
 
 This structure is intentional: the directory layout itself encodes operational knowledge and dependency boundaries, rather than hiding them inside a single monolithic Terraform project.
 
