@@ -54,8 +54,8 @@ Build a production-like Kubernetes platform starting from local development and 
 | Phase 2 | CI with GitHub Actions | ✅ Completed | [Link](docs/phase-02-github-actions.md) |
 | Phase 3 | GitOps deployment with ArgoCD | ✅ Completed | [Link](docs/phase-03-argocd.md) |
 | Phase 4 | Kubernetes platform expansion (Local → EKS) | ✅ Completed | [Link](docs/phase-04-eks.md) |
-| Phase 5 | Infrastructure as Code with Terraform (AWS) | 🔄 In Progress | [Link](docs/phase-05-terraform.md) |
-| Phase 6 | Helm-based Application & Platform Packaging | ⏳ Planned | [Link](docs/phase-06-helm.md) |
+| Phase 5 | Infrastructure as Code with Terraform (AWS) | ✅ Completed | [Link](docs/phase-05-terraform.md) |
+| Phase 6 | Helm-based Application & Platform Packaging | 🔄 In Progress | [Link](docs/phase-06-helm.md) |
 | Phase 7 | Monitoring (Prometheus + Grafana) | ⏳ Planned | [Link](docs/phase-07-monitoring.md) |
 | Phase 8 | Logging (Loki) | ⏳ Planned | [Link](docs/phase-08-logging.md) |
 | Phase 9 | Infrastructure Control & Automation (Scripting) | ⏳ Planned | [Link](docs/phase-09-automation.md) |
