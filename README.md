@@ -64,6 +64,8 @@ The platform evolution continues locally to reinforce automation, observability,
 and CI foundations before re-expanding to cloud environments.
 ────────────────────────────────────────
 
+| Phase | Topic | Status | Docs |
+|------|------|------|------|
 | Phase 6 | Local Kubernetes Platform Bootstrap | ✅ Completed | [Link](docs/phase-06-local-scripts.md) |
 | Phase 7 | Monitoring (Prometheus + Grafana) | 🔄 In Progress | [Link](docs/phase-07-monitoring.md) |
 | Phase 8 | Logging (Loki) | ⏳ Planned | [Link](docs/phase-08-logging.md) |
