@@ -55,8 +55,17 @@ Build a production-like Kubernetes platform starting from local development and 
 | Phase 3 | GitOps deployment with ArgoCD | ✅ Completed | [Link](docs/phase-03-argocd.md) |
 | Phase 4 | Kubernetes platform expansion (Local → EKS) | ✅ Completed | [Link](docs/phase-04-eks.md) |
 | Phase 5 | Infrastructure as Code with Terraform (AWS) | ✅ Completed | [Link](docs/phase-05-terraform.md) |
-| Phase 6 | Helm-based Application & Platform Packaging | 🔄 In Progress | [Link](docs/phase-06-helm.md) |
-| Phase 7 | Monitoring (Prometheus + Grafana) | ⏳ Planned | [Link](docs/phase-07-monitoring.md) |
+
+────────────────────────────────────────
+Environment Shift (Intentional)
+
+Due to temporary AWS usage constraints, all cloud resources were intentionally decommissioned.
+The platform evolution continues locally to reinforce automation, observability,
+and CI foundations before re-expanding to cloud environments.
+────────────────────────────────────────
+
+| Phase 6 | Local Kubernetes Platform Bootstrap | ✅ Completed | [Link](docs/phase-06-local-scripts.md) |
+| Phase 7 | Monitoring (Prometheus + Grafana) | 🔄 In Progress | [Link](docs/phase-07-monitoring.md) |
 | Phase 8 | Logging (Loki) | ⏳ Planned | [Link](docs/phase-08-logging.md) |
 | Phase 9 | Infrastructure Control & Automation (Scripting) | ⏳ Planned | [Link](docs/phase-09-automation.md) |
 | Phase 10 | CI migration (GitHub Actions → Jenkins) | ⏳ Planned | [Link](docs/phase-10-jenkins.md) |
