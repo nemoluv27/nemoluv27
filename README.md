@@ -67,9 +67,9 @@ and CI foundations before re-expanding to cloud environments.
 | Phase | Topic | Status | Docs |
 |------|------|------|------|
 | Phase 6 | Local Kubernetes Platform Bootstrap | ✅ Completed | [Link](docs/phase-06-local-scripts.md) |
-| Phase 7 | Monitoring (Prometheus + Grafana) | 🔄 In Progress | [Link](docs/phase-07-monitoring.md) |
-| Phase 8 | Logging (Loki) | ⏳ Planned | [Link](docs/phase-08-logging.md) |
-| Phase 9 | Infrastructure Control & Automation (Scripting) | ⏳ Planned | [Link](docs/phase-09-automation.md) |
+| Phase 7 | Infrastructure Lifecycle Automation (Terraform + Kubernetes Orchestration) | ✅ Completed | [Link](docs/phase-07-monitoring.md) |
+| Phase 8 | Monitoring (Prometheus + Grafana) | 🔄 In Progress | [Link](docs/phase-08-logging.md) |
+| Phase 9 | Logging (Loki) | ⏳ Planned | [Link](docs/phase-09-automation.md) |
 | Phase 10 | CI migration (GitHub Actions → Jenkins) | ⏳ Planned | [Link](docs/phase-10-jenkins.md) |
 | Phase 11 | Service Mesh & Tracing (Istio, Kiali, Jaeger) | ⏳ Planned | [Link](docs/phase-11-service-mesh.md) |
 | Phase 12 | Database migration (Neon → MySQL / PostgreSQL) | ⏳ Planned | [Link](docs/phase-12-database.md) |
