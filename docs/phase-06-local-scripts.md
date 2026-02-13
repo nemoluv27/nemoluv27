@@ -1,14 +1,17 @@
-## 🧩 Phase 6 – Local Platform Bootstrap & Automation Baseline
+# 🧩 Phase 6 – Local Platform Bootstrap & Automation Baseline
 
-### 📌 Overview
+## 📌 Overview
 
-This phase introduces a standardized local Kubernetes bootstrap workflow using `kind`.  
-It provides a reproducible, cloud-independent environment to continue platform evolution  
+This phase introduces a standardized local Kubernetes bootstrap workflow using `kind`.
+It provides a reproducible, cloud-independent environment to continue platform evolution
 despite temporary AWS usage constraints.
+
+> This phase was conducted locally to develop and validate automation scripts before
+> re-deploying to AWS, reducing cloud cost during the scripting iteration cycle.
 
 ---
 
-### 🎯 Goals
+## 🎯 Goals
 
 - 🧱 Provide a **single entry point** for spinning up a local Kubernetes environment
 - 🔁 Ensure repeatable and idempotent local setup
@@ -16,9 +19,9 @@ despite temporary AWS usage constraints.
 
 ---
 
-### 🛠️ What Was Added
+## 🛠️ What Was Added
 
-#### 🚀 Local Bootstrap Script
+### 🚀 Local Bootstrap Script
 
 A lightweight Bash script was introduced to automate:
 
@@ -26,6 +29,6 @@ A lightweight Bash script was introduced to automate:
 - Idempotent kind cluster creation
 - Local Docker image loading into the cluster
 - Kubernetes manifest application and rollout verification
-
 ```bash
 ./bootstrap.sh
+```
