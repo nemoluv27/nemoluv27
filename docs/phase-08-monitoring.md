@@ -191,7 +191,7 @@ PromQL expression:
 
 ```promql
 increase(kube_pod_container_status_restarts_total{namespace="monitoring"}[5m])
-
+```
 
 ---
 
