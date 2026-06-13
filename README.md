@@ -21,11 +21,11 @@ I focus on **reliability, scalability, automation, and observability**, and I en
 ___
 ___
 
-## 🟢 Ongoing Project (2026 – Present)
+## 🟢 Recent Project 
 # Evolving Kubernetes Platform
 
-📅 **Jan 2026 – Present**  
-🔁 **Status: Actively evolving**
+📅 **Jan - Mar 2026**  
+
 
 > A continuously evolving Kubernetes-based platform project designed to explore real-world  
 > DevOps and Platform Engineering practices through incremental changes and tooling migrations.
@@ -58,21 +58,18 @@ Build a production-like Kubernetes platform starting from local development and 
 | Phase 6 | Local Kubernetes Platform Bootstrap | ✅ Completed | [Link](docs/phase-06-local-scripts.md) |
 | Phase 7 | Infrastructure Lifecycle Automation (Terraform + Kubernetes Orchestration) | ✅ Completed | [Link](docs/phase-07-automation.md) |
 | Phase 8 | Monitoring (Prometheus + Grafana) & Logging (Loki) | ✅ Completed | [Link](docs/phase-08-monitoring.md) |
-| Phase 9 | CI migration (GitHub Actions → Jenkins) | 🔄 In Progress | [Link](docs/phase-09-jenkins.md) |
-| Phase 10 | Service Mesh & Tracing (Istio, Kiali, Jaeger) | ⏳ Planned | [Link](docs/phase-10-service-mesh.md) |
-| Phase 11 | Database migration (Neon → MySQL / PostgreSQL) | ⏳ Planned | [Link](docs/phase-11-database.md) |
+
 
 ---
 
 ### 🧠 Key Learning Focus
-- CI/CD trade-offs and evolution (GitHub Actions → Jenkins)
+- CI/CD trade-offs and evolution 
 - GitOps operational patterns, reconciliation behavior, and failure modes
 - Helm vs raw Kubernetes manifests trade-offs
 - Infrastructure lifecycle management using Terraform
 - Environment cost control through automated start/stop workflows
 - Unified build workflows across local and cloud environments
 - Observability-driven debugging using metrics and logs
-- Database migration considerations in containerized systems
 - Scaling limits beyond CPU-based autoscaling
 
 ---
