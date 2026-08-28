@@ -21,7 +21,78 @@ I focus on **reliability, scalability, automation, and observability**, and I en
 ___
 ___
 
-## 🟢 Recent Project 
+
+## 🟢 Ongoing Project
+
+# 🇰🇷 All About Korea
+
+📅 **Sep 2026 – Present**
+
+Full-Stack Development · AWS · CI/CD · Terraform · Observability
+
+> An end-to-end application project for exploring Korean language, history, culture, and other aspects of Korea.
+> Designed and developed from scratch across **frontend, backend, database, infrastructure, and CI/CD**, gradually evolving from a local application into a production-ready cloud service.
+
+### 🎯 Project Goal
+
+Build and operate a complete application while taking ownership of the entire lifecycle — from application development to cloud infrastructure and operations.
+
+- Design and develop the frontend and user experience
+- Design and implement backend APIs and application logic
+- Design the database schema and data layer
+- Build a reproducible local development environment
+- Introduce automated testing and code validation
+- Build CI/CD workflows with GitHub Actions
+- Design and provision AWS infrastructure using Terraform
+- Deploy and operate the application in a cloud environment
+- Implement monitoring, logging, and alerting
+- Continuously improve reliability, scalability, security, and cost efficiency
+
+---
+
+### 🗺️ Project Roadmap & Progress
+
+| Phase | Topic | Status | Docs |
+|------|------|------|------|
+| Phase 1 | Project Foundation & Local Development | 🚧 In Progress | Coming Soon |
+| Phase 2 | Core Application & Content Structure | ⏳ Planned | - |
+| Phase 3 | Content Management & Admin | ⏳ Planned | - |
+| Phase 4 | Code Quality, Testing & CI | ⏳ Planned | - |
+| Phase 5 | User Features & Application Expansion | ⏳ Planned | - |
+| Phase 6 | AWS Infrastructure & IaC | ⏳ Planned | - |
+| Phase 7 | Continuous Deployment & Production | ⏳ Planned | - |
+| Phase 8 | Observability, Security & Optimization | ⏳ Planned | - |
+
+---
+
+### 🧠 Key Learning Focus
+
+- End-to-end application development from frontend to infrastructure
+- Frontend, backend, and database architecture
+- Application architecture and infrastructure boundaries
+- CI/CD workflow design and evolution
+- Automated testing and code quality validation
+- Local-to-cloud environment evolution
+- Infrastructure as Code with Terraform
+- Production deployment and operational readiness
+- Observability-driven debugging and monitoring
+- Reliability, scalability, security, and cost optimization
+
+---
+
+### 📂 Repository
+
+- `AllAboutKorea` – Application source code, infrastructure, CI/CD, and project documentation
+
+___
+___
+
+___
+___
+
+
+## 🔵 Previous Projects (Latest First)
+
 # Evolving Kubernetes Platform
 
 📅 **Jan - Mar 2026**  
@@ -82,7 +153,6 @@ Build a production-like Kubernetes platform starting from local development and 
 ___
 ___
 
-## 🔵 Previous Projects (Latest First)
 
 ## Multi-Cloud Disaster Recovery Architecture
 📅 **Jun 2025**
