@@ -26,27 +26,34 @@ ___
 
 # 🇰🇷 All About Korea
 
-📅 **Sep 2026 – Present**
+📅 **Aug 2026 – Present**
 
-Full-Stack Development · AWS · CI/CD · Terraform · Observability
+Full-Stack Development · Application Design · Database · AWS · Terraform · CI/CD · Observability
 
-> An end-to-end application project for exploring Korean language, history, culture, and other aspects of Korea.
-> Designed and developed from scratch across **frontend, backend, database, infrastructure, and CI/CD**, gradually evolving from a local application into a production-ready cloud service.
+> An independently designed and developed end-to-end application project for exploring Korean language, history, culture, and other aspects of Korea.
+>
+> The project covers the **entire application lifecycle — from product planning and application design to frontend and backend development, database management, cloud infrastructure, CI/CD, deployment, and production operations.**
+>
+> Starting as a fully local application, the project will progressively evolve into a **production service running on AWS**, allowing each stage of application and infrastructure evolution to be designed, implemented, and operated from the ground up.
 
 ### 🎯 Project Goal
 
-Build and operate a complete application while taking ownership of the entire lifecycle — from application development to cloud infrastructure and operations.
+Build a real-world application from the ground up while taking **end-to-end ownership** of both application development and infrastructure.
 
+The project is intentionally developed in phases, starting with a local environment and gradually evolving toward a production-ready cloud service.
+
+- Plan the product, features, and overall application architecture
 - Design and develop the frontend and user experience
 - Design and implement backend APIs and application logic
-- Design the database schema and data layer
+- Design, manage, and evolve the database and data model
 - Build a reproducible local development environment
-- Introduce automated testing and code validation
+- Implement automated testing and code quality validation
 - Build CI/CD workflows with GitHub Actions
-- Design and provision AWS infrastructure using Terraform
-- Deploy and operate the application in a cloud environment
+- Design and provision AWS infrastructure using Infrastructure as Code
+- Deploy the application as a publicly accessible service
+- Manage application and database deployments
 - Implement monitoring, logging, and alerting
-- Continuously improve reliability, scalability, security, and cost efficiency
+- Operate and continuously improve the service for reliability, scalability, security, and cost efficiency
 
 ---
 
@@ -54,38 +61,37 @@ Build and operate a complete application while taking ownership of the entire li
 
 | Phase | Topic | Status | Docs |
 |------|------|------|------|
-| Phase 1 | Project Foundation & Local Development | 🚧 In Progress | Coming Soon |
-| Phase 2 | Core Application & Content Structure | ⏳ Planned | - |
-| Phase 3 | Content Management & Admin | ⏳ Planned | - |
-| Phase 4 | Code Quality, Testing & CI | ⏳ Planned | - |
-| Phase 5 | User Features & Application Expansion | ⏳ Planned | - |
-| Phase 6 | AWS Infrastructure & IaC | ⏳ Planned | - |
-| Phase 7 | Continuous Deployment & Production | ⏳ Planned | - |
-| Phase 8 | Observability, Security & Optimization | ⏳ Planned | - |
+| Phase 1 | Product Planning & Project Foundation | 🚧 In Progress | Coming Soon |
+| Phase 2 | Core Full-Stack Application Development | ⏳ Planned | - |
+| Phase 3 | Database & Content Management | ⏳ Planned | - |
+| Phase 4 | Testing, Code Quality & CI | ⏳ Planned | - |
+| Phase 5 | Application Features & UX Expansion | ⏳ Planned | - |
+| Phase 6 | AWS Infrastructure & Infrastructure as Code | ⏳ Planned | - |
+| Phase 7 | CI/CD & Production Deployment | ⏳ Planned | - |
+| Phase 8 | Observability, Security & Production Operations | ⏳ Planned | - |
 
 ---
 
 ### 🧠 Key Learning Focus
 
-- End-to-end application development from frontend to infrastructure
-- Frontend, backend, and database architecture
-- Application architecture and infrastructure boundaries
-- CI/CD workflow design and evolution
-- Automated testing and code quality validation
-- Local-to-cloud environment evolution
-- Infrastructure as Code with Terraform
-- Production deployment and operational readiness
-- Observability-driven debugging and monitoring
+- End-to-end ownership of a real-world application
+- Product planning and application architecture
+- Frontend and backend application development
+- API and database design
+- Local-to-cloud architecture evolution
+- Automated testing and code quality
+- CI/CD workflow design and automation
+- Infrastructure as Code and AWS architecture
+- Production deployment and operations
+- Monitoring, logging, and incident readiness
 - Reliability, scalability, security, and cost optimization
 
 ---
 
 ### 📂 Repository
 
-- `AllAboutKorea` – Application source code, infrastructure, CI/CD, and project documentation
+- `AllAboutKorea` – Full-stack application, infrastructure, CI/CD, and project documentation
 
-___
-___
 
 ___
 ___
