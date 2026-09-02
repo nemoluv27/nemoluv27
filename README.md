@@ -61,8 +61,8 @@ The project is intentionally developed in phases, starting with a local environm
 
 | Phase | Topic | Status | Docs |
 |------|------|------|------|
-| Phase 1 | Product Planning & Project Foundation | 🚧 In Progress | Coming Soon |
-| Phase 2 | Core Full-Stack Application Development | ⏳ Planned | - |
+| Phase 1 | Product Planning & Project Foundation | ✅ Completed | [Link](docs/phase-01-project-foundation.md) |
+| Phase 2 | Core Full-Stack Application Development | 🚧 In Progress | - |
 | Phase 3 | Database & Content Management | ⏳ Planned | - |
 | Phase 4 | Testing, Code Quality & CI | ⏳ Planned | - |
 | Phase 5 | Application Features & UX Expansion | ⏳ Planned | - |
